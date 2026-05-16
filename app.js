@@ -20,5 +20,5 @@ app.use('/api/orders',order)
 app.use('/api/user',user) 
 app.use('/api/admin',admin)
 app.use(cors())
-const port = process.env.PORT || 3000;
+const port = process.env.PORT;
 app.listen(port, () => console.log(`Server running on port ${port}`))
